@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[2149],{7807:l=>{l.exports=JSON.parse('{"title":"Installing","slug":"/category/installing","permalink":"/de/docs/category/installing","navigation":{"previous":{"title":"Tutorial Intro","permalink":"/de/docs/intro"},"next":{"title":"Install HollyHock2","permalink":"/de/docs/installing/hollyhock2"}}}')}}]);
