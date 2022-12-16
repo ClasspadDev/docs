@@ -8,7 +8,7 @@ export default function CTADocs() {
       <div className="container">
         <p class="hero__subtitle">There's a lot more to discover !</p>
         <div class="buttons_src-pages-index-module">
-            <a class="button button--primary button--lg" href="/docs/intro">Get started</a>
+            <a class="button button--primary button--lg" href="docs/intro">Get started</a>
         </div>
       </div>
     </section>

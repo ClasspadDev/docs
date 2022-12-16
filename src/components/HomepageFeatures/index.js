@@ -12,7 +12,8 @@ const FeatureList = [
         It will allow you to run both games and create your own app on your calculator !
       </>
     ),
-    emoji: '😊'
+    emoji: '😊',
+    link: 'docs/installing/hollyhock2'
   },
   {
     title: 'Growing community',
@@ -23,7 +24,8 @@ const FeatureList = [
         We're always into innovation and waiting for you to test latest releases or even brings your own expertise ! 
       </>
     ),
-    emoji: '🌱'
+    emoji: '🌱',
+    link: 'docs/intro'
   },
   {
     title: 'Hack into firmware',
@@ -34,7 +36,8 @@ const FeatureList = [
         It's also a great way to learn about electronics and embed system design !
       </>
     ),
-    emoji: '🛠️'
+    emoji: '🛠️',
+    link: 'docs/installing/sdk'
   },
 ];
 
@@ -49,7 +52,7 @@ function Feature({Svg, title, description, emoji}) {
         <h3>{title}</h3>
         <p>{description}</p>
         <div class="buttons_src-pages-index-module">
-            <a class="button button--secondary button--lg" href="/docs/intro">View more</a>
+            <a class="button button--secondary button--lg" href="docs/intro">View more</a>
         </div>
       </div>
     </div>
