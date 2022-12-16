@@ -9,7 +9,7 @@ const config = {
   title: 'Classpad Dev',
   tagline: 'Dive into the Classpad II fx-CP400 !',
   url: 'https://classpaddev.github.io/',
-  baseUrl: '/', // /docs
+  baseUrl: '/docs/', // /docs
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
