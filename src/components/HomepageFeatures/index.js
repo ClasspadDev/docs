@@ -4,46 +4,53 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Easy to Install',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The HollyHock installer is made to be easy to install and reduce device bricking as much as possible. 
+        It will allow you to run both games and create your own app on your calculator !
       </>
     ),
+    emoji: '😊'
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Growing community',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The classpad community brings people that enjoy thinkering and getting full usage of their hardware together.
+        We're always into innovation and waiting for you to test latest releases or even brings your own expertise ! 
       </>
     ),
+    emoji: '🌱'
   },
   {
-    title: 'Powered by React',
+    title: 'Hack into firmware',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Allows you to create custom solutions with a challenging and rewarding experience on reverse engineering. 
+        It's also a great way to learn about electronics and embed system design !
       </>
     ),
+    emoji: '🛠️'
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, emoji}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <p className={styles.bigEmoji}>{emoji}</p>
+        {/* <Svg className={styles.featureSvg} role="img" /> */}
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        <div class="buttons_src-pages-index-module">
+            <a class="button button--secondary button--lg" href="/docs/intro">View more</a>
+        </div>
       </div>
     </div>
   );

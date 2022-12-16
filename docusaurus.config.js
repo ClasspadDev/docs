@@ -6,25 +6,25 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Classpad Dev',
+  tagline: 'Dive into the Classpad II fx-CP400 !',
+  url: 'https://classpaddev.github.io/',
+  baseUrl: '/', // /docs
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'classpaddev', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr', 'de'],
   },
 
   presets: [
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ClasspadDev/docs/tree/master/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ClasspadDev/docs/tree/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Classpad Dev',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'The classpad logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -71,8 +71,13 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ClasspadDev/',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://discord.gg/knpcNJTzpd',
+            label: 'Discord',
             position: 'right',
           },
         ],
@@ -93,16 +98,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/knpcNJTzpd',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/fxcp400/',
               },
             ],
           },
@@ -115,12 +116,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ClasspadDev',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `CLASSPAD-DEV IS A COMMUNITY PROJECT NOT AFFILIATED WITH CASIO. <br/>THE PROGRAMS AND OTHER ONLINE CONTENT ON CLASSPAD-DEV REMAIN THE PROPERTY OF THEIR AUTHORS AND MAY BE SUBJECT TO LICENSES OR COPYRIGHTS.CASIO IS A REGISTERED TRADEMARK OF CASIO COMPUTER CO., LTD. IN JAPAN.`,
       },
       prism: {
         theme: lightCodeTheme,
