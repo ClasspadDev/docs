@@ -29,7 +29,7 @@ Install and build BinUtils
 ```bash
 version=2.37
 
-prefix=~/cross/opt/sh4eb-nofpu-elf
+prefix=$PREFIX/sh4eb-nofpu-elf
 
 jobs=`nproc 2> /dev/null || echo 1`
 
@@ -52,7 +52,7 @@ And GCC
 ```bash
 version=11.2.0
 
-prefix=~/cross/opt/sh4eb-nofpu-elf
+prefix=$PREFIX/sh4eb-nofpu-elf
 
 jobs=`nproc 2> /dev/null || echo 1`
 
@@ -80,7 +80,7 @@ Now NewLib
 ```bash
 version=1.14.0
 
-prefix=~/cross/src/hollyhock-2/sdk/newlib
+prefix=$PREFIX/../src/hollyhock-2/sdk/newlib
 
 jobs=`nproc 2> /dev/null || echo 1`
 
@@ -110,7 +110,7 @@ Rebuild Full GCC
 `Full-gcc.sh`
 ```bash
 version=11.2.0
-prefix=~/cross/opt/sh4eb-nofpu-elf-full
+prefix=$PREFIX/sh4eb-nofpu-elf-full
 
 mkdir gcc-${version}-build-full
 cd gcc-${version}-build-full
