@@ -29,7 +29,7 @@ First, you'll need the newest release of HollyHock2, grab it here : [https://git
 
 - Extract the folder Snail2021 to the Desktop
 - Run Snail2021.exe
-- Follow the instructions on screen (You need these things: http://angusj.com/resourcehacker/ and https://tiplanet.org/forum/archives_voir.php?id=1044960 )
+- Follow the instructions on screen (You need these things: http://angusj.com/resourcehacker/ or [Resource Cracker](https://www.pelock.com/products/resource-cracker) and https://tiplanet.org/forum/archives_voir.php?id=1044960 )
 - When you installed the update on the calculator, disconnect and reconnect it and copy run.bin, Tetris30.hhk and snake.hhk onto the calculator.
 
 
